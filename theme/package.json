@@ -17,8 +17,8 @@
     "defaults": {
       "fonts": {
         "mono": "PT Mono",
-        "sans": "PT Serif",
-        "serif": "PT Serif",
+        "sans": "PT Serif, 冬青黑体简体中文",
+        "serif": "PT Serif, 冬青黑体简体中文",
         "italic": true,
         "weights": "400, 700"
       }

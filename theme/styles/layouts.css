@@ -1,14 +1,18 @@
 :root {
-  --slidev-theme-primary: #5d8392;
+  --slidev-theme-primary: #325AB4;
 }
 
 .slidev-layout {
-  h1 {
-    color: var(--slidev-theme-primary);
-  }
+  @apply pt-16;
 
-  h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
+  &.intro,
+  &.fact,
+  &.statement,
+  &.quote,
+  &.section {
+    h1 + p {
+      @apply -mt-2 opacity-50 mb-4;
+    }
   }
 
   p + h2, ul + h2, table + h2 {
@@ -16,19 +20,20 @@
   }
   
   h1 {
-    @apply text-4xl mb-4 -ml-[0.05em];
+    color: var(--slidev-theme-primary);
+    @apply text-3xl mb-4 -ml-[0.05em];
   }
 
   h2 {
-    @apply text-3xl;
-  }
-
-  h3 {
     @apply text-2xl;
   }
 
-  h4 {
+  h3 {
     @apply text-xl;
+  }
+
+  h4 {
+    @apply text-l;
   }
 
   h5 {
@@ -42,15 +47,37 @@
   h6:not(.opacity-100) {
     @apply opacity-40;
   }
+
+  .logo {
+    position: absolute;
+    left: 32px;
+    top: 20px;
+    width: 160px;
+  }
+
+  .icon-bg {
+    position: absolute;
+    color: #678094;
+    opacity: 15%;
+    z-index: -1;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+  }
 }
 
-.slidev-layout.cover,
+.slidev-layout.cover {
+  h1 {
+    @apply text-4xl mt-4 mb-6;
+  }
+}
+
 .slidev-layout.intro {
   @apply h-full grid;
 
   h1 {
-    color: inherit;
-    @apply text-6xl leading-20;
+    @apply text-4xl leading-20;
   }
 }
 

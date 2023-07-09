@@ -1,0 +1,9 @@
+
+
+.text-primary {
+  color: var(--slidev-theme-primary);
+}
+
+.bg-primary {
+  background-color: var(--slidev-theme-primary);
+}

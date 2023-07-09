@@ -10,5 +10,11 @@
     "@slidev/cli": "^0.42.5",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/bi": "^1.1.17",
+    "@iconify-json/clarity": "^1.1.8",
+    "@iconify-json/uil": "^1.1.4",
+    "@iconify-json/uim": "^1.1.5"
   }
 }
