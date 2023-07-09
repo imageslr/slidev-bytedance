@@ -48,6 +48,13 @@
     @apply opacity-40;
   }
 
+  .slide-number {
+    @apply text-xs text-gray-400;
+    position: absolute;
+    right: 24px;
+    bottom: 20px;
+  }
+
   .logo {
     position: absolute;
     left: 32px;
