@@ -5,6 +5,8 @@ highlighter: shiki
 themeConfig:
   primary: '#325AB4'
 transition: slide-left
+typora-root-url: ./public
+typora-copy-images-to: ./public/images
 ---
 
 # 这是一个标题
@@ -47,7 +49,6 @@ layout:center
 # Slide Title
 
 > Slide Subtitle
-
 
 **bold** foo bar *italic*
 
